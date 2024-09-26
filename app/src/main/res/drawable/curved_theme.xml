@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/transparent"/> <!-- Background color -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/theme"/> <!-- Border color and width -->
+    <corners android:radius="16dp"/> <!-- Adjust the radius to get the desired curvature -->
+</shape>

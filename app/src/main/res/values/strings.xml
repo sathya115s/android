@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Farmer Assist</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="premium_subsidy"><u>Premium Subsidy</u></string>
+    <string name="premium_rates"><u>Premium Rates</u></string>
+    <string name="sum_insured_limit_of_coverage"><u>Sum Insured / Limit of Coverage</u></string>
+    <string name="risks_covered_exclusive"><![CDATA[Risks Covered & Exclusive]]></string>
+    <string name="farmers_to_be_covered"><u>Farmers to be Covered</u></string>
+    <string name="states_areas_to_be_covered"><![CDATA[States & Areas to be covered]]></string>
+    <string name="crops_covered"><u>Crops Covered</u></string>
+    <string name="to_encourage_the_farmers_to_adopt_progressive_farming_practices_high_value_in_puts_and_higher_technology_in_agriculture">To encourage the farmers to adopt progressive farming practices, high value in-puts and higher technology in Agriculture.</string>
+    <string name="to_provide_insurance_coverage_and_financial_support_to_the_farmers_in_the_event_of_failure_of_any_of_the_notified_crop_as_a_result_of_natural_calamities_pests_diseases"><![CDATA[To provide insurance coverage and financial support to the farmers in the event of failure of any of the notified crop as a result of natural calamities, pests & diseases.]]></string>
+    <string name="selection_of_insurance_companies"><![CDATA[Selection of Insurance Companies ]]></string>
+    <string name="districts_in_which_the_scheme_will_be_implemented">Districts in which the scheme will be implemented</string>
+    <string name="implementing_agency">Implementing Agency</string>
+    <string name="guidelines_for_implementation_of_livestock_insurance_scheme">Guidelines for Implementation of Livestock Insurance Scheme</string>
+
+    <string-array name="income">
+        <item>Farm Item Sale</item>
+        <item>Farm Product sale</item>
+        <item>Others</item>
+        <item>None</item>
+    </string-array>
+
+</resources>

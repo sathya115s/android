@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FarmerAssist"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".LivestockDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScheduledCropsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FarmScheduleActivityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewCattleReportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddCattleReportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageLivestock4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".NewFarmProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DateOfSowingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlantingMaterialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectSoilTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectCropsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StepsToFollowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AgriculturalProcedureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CropsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyFarmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MarketPricesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WeatherForecastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InsuranceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LivestockInsurance2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".LivestockInsuranceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CropInsurance2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".CropInsuranceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnalyticsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewExpenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewIncomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FinancialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FarmSetupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HomepageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageLivestock3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisteredCattlesRecyclerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageLivestock2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageLivestockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
