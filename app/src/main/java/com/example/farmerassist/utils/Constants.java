@@ -17,7 +17,7 @@ import retrofit2.Response;
 
 public interface Constants {
 
-    String BASE_URL = "https://2688-2401-4900-230f-e3bb-4ccd-6bd5-ced3-4d56.ngrok-free.app";
+    String BASE_URL = "https://8d71-2405-201-e040-8063-3c54-aea-8044-8a71.ngrok-free.app";
 
      static SharedPreferences getSF(Context context) {
         return context.getSharedPreferences(Constants.SF_NAME, Context.MODE_PRIVATE);

@@ -5,6 +5,7 @@ import com.example.farmerassist.responses.AddIncomeResponse;
 import com.example.farmerassist.responses.CommonResponse;
 import com.example.farmerassist.responses.CropResponse;
 import com.example.farmerassist.responses.CropsActivityResponse;
+import com.example.farmerassist.responses.DaysWeatherResponse;
 import com.example.farmerassist.responses.EditLiveStocksResponse;
 import com.example.farmerassist.responses.FarmSetupResponse;
 import com.example.farmerassist.responses.GetAllCropsResponse;
@@ -93,6 +94,9 @@ public interface Interface {
                                           @Field("prescription") String prescription);
     @GET("2.5/weather")
     Call<WeatherResponse> getWeather(@Query("lat") double lat, @Query("lon") double lon, @Query("appid")String api);
+
+    @GET("2.5/forecast")
+    Call<DaysWeatherResponse> getForecast(@Query("lat") double lat, @Query("lon") double lon, @Query("appid")String api);
 
     @POST("/api/add_expense")
     Call<CommonResponse> addExpense(@Query("farm_expense_belongs") String expenseName, @Query("expense_amount_spend") String amount, @Query("expense_date")String date);
